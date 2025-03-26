@@ -1,0 +1,26 @@
+{
+  "name": "@csvhub/data-fec",
+  "version": "1.0.0",
+  "description": "FEC data",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csv-hub/data-fec.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csv-hub/data-fec/issues"
+  },
+  "homepage": "https://github.com/csv-hub/data-fec#readme",
+  "dependencies": {
+    "fec-parse": "^0.27.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13"
+  }
+}

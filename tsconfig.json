@@ -1,0 +1,33 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"baseUrl": ".",
+        "experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": true,
+		"removeComments": false,
+        "jsx": "react-jsx",
+        "jsxImportSource": "react",
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+        "strict": false,
+		"outDir": "./dist",
+		"esModuleInterop": true,
+        "lib": [
+            "esnext"
+        ],
+		"module": "NodeNext",
+        "moduleResolution": "NodeNext",
+		"target": "ESNext",
+		"types": ["node"]
+	},
+	"include": [
+        "./component/**/*",
+		"./table/**/*",
+        "./page/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

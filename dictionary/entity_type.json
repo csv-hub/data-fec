@@ -1,0 +1,9 @@
+[
+    { "type": "CAN", "description": "Candidate" },
+    { "type": "CCM", "description": "Candidate Committee" },
+    { "type": "COM", "description": "Committee" },
+    { "type": "IND", "description": "Individual (a person)" },
+    { "type": "ORG", "description": "Organization (not a committee and not a person)" },
+    { "type": "PAC", "description": "Political Action Committee" },
+    { "type": "PTY", "description": "Party Organization" }
+]
